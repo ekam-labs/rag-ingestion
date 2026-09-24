@@ -1,0 +1,23 @@
+[project]
+name = "rag-ingestion"
+version = "0.1.0"
+description = "A lightweight document ingestion component for RAG pipelines."
+readme = "README.md"
+authors = [
+    { name = "satyampandya" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "docx2txt>=0.9",
+    "langchain-community>=0.4.2",
+    "langchain-text-splitters>=1.1.2",
+    "openpyxl>=3.1.5",
+    "pypdf>=6.18.0",
+    "python-docx>=1.2.0",
+    "tiktoken>=0.14.0",
+    "unstructured[xlsx]>=0.27.5",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
