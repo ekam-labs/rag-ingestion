@@ -10,5 +10,5 @@ wheels/
 .venv
 
 # Test
-rag-ingection/tests
+rag-ingestion/tests
 tests
